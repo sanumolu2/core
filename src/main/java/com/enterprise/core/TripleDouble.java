@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class TripleDouble {
 
 	public int find(int first, int second) {
-		// convert to strings
+		// convert to strings and then char
 
 		String s1 = Integer.toString(first);
 		char a[] = s1.toCharArray();
